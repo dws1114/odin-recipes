@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffe5ac;
+    color: #292929
+}
+
+.header,
+div {
+    text-align: center;
+}
+
+img {
+    margin: 0, auto;
+}
+
+.ingredients,
+.steps {
+    font-size: 14px;
+}
+
+.steps {
+    font-weight: bold;
+}
