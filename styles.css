@@ -1,16 +1,14 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #ffe5ac;
-    color: #292929
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #bbffea;
+    color: #292929;
+    padding: 10px;
+    border: 3px solid black;
 }
 
-.header,
-div {
+.header {
     text-align: center;
-}
-
-img {
-    margin: 0, auto;
+    font-size: 2.5rem;
 }
 
 .ingredients,
@@ -20,4 +18,21 @@ img {
 
 .steps {
     font-weight: bold;
+}
+
+.meatballs-link,
+.spaghetti-link,
+.potatoes-link {
+    background-color: rgba(170, 66, 255, 0.301);
+    width: 200px;
+    margin: 8px auto;
+    padding: 4px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+img {
+    display: block;
+    margin: 0 auto;
 }
